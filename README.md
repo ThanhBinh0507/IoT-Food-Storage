@@ -32,7 +32,7 @@ Each IoT node in the system represents a specific storage room (e.g., `A1` for A
 ## ⚙️ Firmware Architecture & Key Features
 
 ### 1. Cooperative Task Scheduler
-Instead of relying on an RTOS, the firmware implements a lightweight **Cooperative Task Scheduler**[cite: 1]. The main loop checks elapsed time (`running_time()`) to execute specific tasks at defined intervals without blocking:
+Instead of relying on an RTOS, the firmware implements a lightweight **Cooperative Task Scheduler**. The main loop checks elapsed time (`running_time()`) to execute specific tasks at defined intervals without blocking:
 * `SensorData()`: Reads sensors and publishes to MQTT every 30 seconds.
 * `DeviceControlSignal()`: Publishes device state changes every 4 seconds.
 * `LCD & AutoMode()`: Updates the local display and executes Auto logic every 2 seconds.
