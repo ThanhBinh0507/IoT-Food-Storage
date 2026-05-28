@@ -68,7 +68,7 @@ The system communicates with the Adafruit IO broker using the following optimize
 
 ## 🚀 How to Run
 1. Clone this repository.
-2. Open the source code in your preferred MicroPython/C++ IDE configured for ESP32.
+2. Open the source code in https://app.ohstem.vn/ configured for ESP32.
 3. Update the Wi-Fi credentials (`SSID`, `PASSWORD`) and Adafruit IO keys (`AIO_USERNAME`, `AIO_KEY`) in the configuration section.
 4. Set the specific `ROOM_ID` (e.g., `A1`) for the node.
 5. Flash to the Yolo:bit board.
