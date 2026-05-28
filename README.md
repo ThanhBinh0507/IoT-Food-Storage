@@ -50,7 +50,7 @@ To prevent false alarms from temporary sensor glitches, an alert is only publish
 ---
 
 ## 📡 MQTT Communication Protocol
-The system communicates with the Adafruit IO broker using the following optimized feed structure to minimize API limits[cite: 1]:
+The system communicates with the Adafruit IO broker using the following optimized feed structure to minimize API limits:
 
 | Feed | Direction | Payload Example | Description |
 | :--- | :--- | :--- | :--- |
